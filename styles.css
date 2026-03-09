@@ -22,7 +22,7 @@ header nav a {
 }
 
 .hero {
-    background: url("Images/hero.jpg") center/cover no-repeat;
+    background: url("images/hero.jpg") center/cover no-repeat;
     padding: 120px 20px;
     text-align: center;
     color: white;
@@ -146,7 +146,7 @@ footer {
     overflow: hidden;
 }
 
-.hero-Images {
+.hero-image {
   height: 150px;           /* size your image */
   width: auto;
   object-fit: contain;
@@ -196,7 +196,7 @@ footer {
 }
 
 /* MODAL BASE */
-.Images-modal {
+.image-modal {
     display: none;
     position: fixed;
     inset: 0;
@@ -208,7 +208,7 @@ footer {
 }
 
 /* IMAGE */
-#modalImages {
+#modalImage {
     max-width: 85%;
     max-height: 80%;
     transition: transform 0.3s ease;
@@ -350,5 +350,50 @@ form button:hover {
     50% { transform: translateX(-60px); opacity: 1; }
     80% { transform: translateX(-30px); opacity: 1; }
     100% { transform: translateX(0); opacity: 0; }
-
 }
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: black;
+    padding: 20px;
+}
+
+
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+}
+
+
+
+.brand-name {
+    justify-self: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.menu {
+    justify-self: end;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+
+
