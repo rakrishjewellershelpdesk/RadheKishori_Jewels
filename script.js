@@ -50,7 +50,7 @@ function goToSlide(dot, slideIndex) {
 
 function buyNow(product, price) {
   const message =
-`Hello Rakrish Jewels 💎
+`Hello RadheKishori Jewels 💎
 
 I want to order:
 Product: ${product}
