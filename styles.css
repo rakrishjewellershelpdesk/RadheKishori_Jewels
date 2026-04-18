@@ -102,11 +102,6 @@ footer {
     overflow: hidden;
 }
 
-.slide {
-    width: 100%;
-    display: none;
-    border-radius: 10px;
-}
 
 .slide.active {
     display: block;
@@ -404,10 +399,7 @@ form button:hover {
     padding: 20px;
 }
 
-.slider-box {
-    width: 100%;
-    max-width: 400px;
-}
+
 
 /* SLIDER */
 .slider {
@@ -449,5 +441,11 @@ form button:hover {
     border-radius: 10px;  /* optional rounded corners */
 }
 body {
+    margin: 0;
     overflow-x: hidden;
+}
+
+.products {
+    max-width: 1200px;
+    margin: auto;
 }
