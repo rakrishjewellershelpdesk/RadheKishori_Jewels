@@ -150,3 +150,4 @@ document.getElementById("modalImage").addEventListener("touchend", e => {
 function doGet() {
   return HtmlService.createHtmlOutputFromFile('your-html-file-name');
 }
+
