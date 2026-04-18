@@ -32,7 +32,7 @@
             <a href="#contact">Contact</a>
 <div class="coming-soon-slider">
   <div class="coming-soon-card">S
-    <h2> NEW UPCOMING RADHAKRISHNA SHRINGAR MALA (NECKLACE)</h2>
+    <h2> STAY TUNED FOR MORE NEW UPCOMING RADHAKRISHNA SHRINGAR MALA (NECKLACE)</h2>
     <p>ARRIVING SOON</p>
   </div>
 </div>
@@ -44,7 +44,7 @@
 
 
     <!-- HERO SECTION -->
-    <section class="hero-section" id="home">
+    <section class="hero-container" id="home">
         <h1>Handcrafted Luxury Jewelry</h1>
         <p>Elegance • Beauty • Timeless Design</p>
 
@@ -52,12 +52,12 @@
         <div class="slider-box">
             <h2>RadheKrishna Shringar</h2>
 
-            <div class="slider">
+        <div class="slider">
 		<img src="Images/Ladli ju_1.jpeg" class="slide">
 		<img src="Images/Ladli ju_2.jpeg" class="slide">
-                <img src="Images/Pearl_Mukut.jpeg" class="slide active">
+        <img src="Images/Pearl_Mukut.jpeg" class="slide active">
 		<img src="Images/Kanha_2.jpeg" class="slide">
-                <img src="Images/Pearl_Mala.jpeg" class="slide">
+        <img src="Images/Pearl_Mala.jpeg" class="slide">
 		<img src="Images/Kanha_3.jpeg" class="slide">
 		<img src="Images/Kanha_4.jpeg" class="slide">
 		<img src="Images/Kanha_5.jpeg" class="slide">
@@ -70,10 +70,15 @@
 	    <a class="btn" href="#shop">Shop Now</a>
         </div>
 
-	<div class="slider hero-slider">
-    		<img src="Images/Necklace_01-1.jpeg" class="slide active"onclick="openModal(this)">
-    		<img src="Images/Necklace_02-1.jpeg" class="slide"onclick="openModal(this)">
-    		<img src="Images/Necklace_03-1.jpeg" class="slide"onclick="openModal(this)">
+		<!-- HANDCRAFTED -->
+        <div class="slider-box">
+            <h2>Handcrafted Pearl</h2>
+
+        <div class="slider">
+
+    	<img src="Images/Necklace_01-1.jpeg" class="slide active"onclick="openModal(this)">
+    	<img src="Images/Necklace_02-1.jpeg" class="slide"onclick="openModal(this)">
+    	<img src="Images/Necklace_03-1.jpeg" class="slide"onclick="openModal(this)">
    		<img src="Images/Necklace_04-1.jpeg" class="slide"onclick="openModal(this)">
 		<img src="Images/Necklace_05-1.jpeg" class="slide"onclick="openModal(this)">
 		<img src="Images/Necklace_06-1.jpeg" class="slide"onclick="openModal(this)">
@@ -105,8 +110,100 @@
     <section class="products" id="shop">
         <h2>Our Collection</h2>
 
-        <div class="product-grid">
+		<div class="product-card">
+		<div class="slider">
+			<img src="Images/Pearl_Mukut.jpeg" class="slide active" onclick="openModal(this)">
+        		<img src="Images/Kanha_2.jpeg" class="slide" onclick="openModal(this)">
+        		<img src="Images/Kanha_4.png" class="slide" onclick="openModal(this)" >
+        		<img src="Images/Kanha_5.jpeg" class="slide" onclick="openModal(this)">
+
+        <button class="prev" onclick="prevSlide(this)">❮</button>
+        <button class="next" onclick="nextSlide(this)">❯</button>
+	<div class="dots">
+            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+            <span class="dot" onclick="goToSlide(this, 1)"></span>
+            <span class="dot" onclick="goToSlide(this, 2)"></span>
+            <span class="dot" onclick="goToSlide(this, 3)"></span>
+        </div>
+    </div>
+                "01 - Kanha_Pearl_Mukut"
+                <h3>01 - Kanha Pearl Mukut</h3>
+                <p>MRP(₹)70</p>
+		<p>Our price(₹)50</p>
+		<p>Delivery charges as per location</p>
+                <button onclick="buyNow('01 - Kanha Pearl Mukut', 50)">
+  		Buy Now
+		</button>
+            </div>
+
+ <div class="product-card">
+		<div class="slider">
+			<img src="Images/Pearl_Mala.jpeg" class="slide active" onclick="openModal(this)">
+        		<img src="Images/Kanha_3.jpeg" class="slide" onclick="openModal(this)">
+      
+
+        <button class="prev" onclick="prevSlide(this)">❮</button>
+        <button class="next" onclick="nextSlide(this)">❯</button>
+	<div class="dots">
+            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+            <span class="dot" onclick="goToSlide(this, 1)"></span>
+            <span class="dot" onclick="goToSlide(this, 2)"></span>
+            <span class="dot" onclick="goToSlide(this, 3)"></span>
+        </div>
+    </div>
+                "02 - Kanha_Pearl_Mala"
+                <h3>01 - Kanha Pearl Mala</h3>
+                <p>MRP(₹)40</p>
+		<p>Our price(₹)20</p>
+		<p>Delivery charges as per location</p>
+                <button onclick="buyNow('01 - Kanha Pearl Mala', 20)">
+  		Buy Now
+		</button>
+            </div>
+
+
+	<div class="product-card">
+		<div class="slider">
+			<img src="Images/Ladli ju_1.jpeg" class="slide active" onclick="openModal(this)">
+        		<img src="Images/Ladli ju_2.jpeg" class="slide" onclick="openModal(this)">
+      
+
+        <button class="prev" onclick="prevSlide(this)">❮</button>
+        <button class="next" onclick="nextSlide(this)">❯</button>
+	<div class="dots">
+            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+            <span class="dot" onclick="goToSlide(this, 1)"></span>
+            <span class="dot" onclick="goToSlide(this, 2)"></span>
+            <span class="dot" onclick="goToSlide(this, 3)"></span>
+        </div>
+    </div>
+                "03 - Ladliju_Pearl_Hairband"
+                <h3>01 - Ladli ju Pearl Hairband</h3>
+                <p>MRP(₹)50</p>
+		<p>Our price(₹)30</p>
+		<p>Delivery charges as per location</p>
+                <button onclick="buyNow('03 - Ladli ju Pearl Hairband, 30)">
+  		Buy Now
+		</button>
+            </div>
+
             <div class="product-card">
+		<div class="slider">
+			<img src="Images/Necklace_01-1.jpeg" class="slide active" onclick="openModal(this)">
+        		<img src="Images/Necklace_01-2.jpeg" class="slide" onclick="openModal(this)">
+        		<img src="Images/Necklace_01-3.png" class="slide" onclick="openModal(this)" >
+        		<img src="Images/Necklace_01-4.jpeg" class="slide" onclick="openModal(this)">
+
+        <button class="prev" onclick="prevSlide(this)">❮</button>
+        <button class="next" onclick="nextSlide(this)">❯</button>
+	<div class="dots">
+            <span class="dot active" onclick="goToSlide(this, 0)"></span>
+            <span class="dot" onclick="goToSlide(this, 1)"></span>
+            <span class="dot" onclick="goToSlide(this, 2)"></span>
+            <span class="dot" onclick="goToSlide(this, 3)"></span>
+        </div>
+
+        <div class="product-card">
 		<div class="slider">
 			<img src="Images/Necklace_01-1.jpeg" class="slide active" onclick="openModal(this)">
         		<img src="Images/Necklace_01-2.jpeg" class="slide" onclick="openModal(this)">
