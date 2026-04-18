@@ -398,15 +398,15 @@ form button:hover {
 
 .hero-container {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;        /* VERY IMPORTANT */
     justify-content: center;
+    gap: 20px;
     padding: 20px;
 }
 
 .slider-box {
-    width: 350%;
-    position: relative;
-    text-align: center;
+    width: 100%;
+    max-width: 400px;
 }
 
 /* SLIDER */
@@ -447,4 +447,7 @@ form button:hover {
     height: 300px;        /* controls rectangle height */
     object-fit: cover;    /* keeps image proportion */
     border-radius: 10px;  /* optional rounded corners */
+}
+body {
+    overflow-x: hidden;
 }
