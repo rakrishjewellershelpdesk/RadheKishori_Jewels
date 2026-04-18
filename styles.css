@@ -456,3 +456,9 @@ body {
     height: 90px;
     object-fit: cover;
 }
+
+.product-card .slider {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+}
